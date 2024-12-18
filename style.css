@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body
+{
+  min-height: 100vh;  
+}
+
+
+
+
+/*
+        !!!! IMPORTANT
+
+                    When you want to add new classes or IDs make sure to orgnaize them according to the HTML
+                    So for example, if you want to add a new class for section 1 tags you type them at the start of the page
+
+                    If you want to add new classes for section 8 for example you type the at the bottom and so on, Thank you.
+
+*/
