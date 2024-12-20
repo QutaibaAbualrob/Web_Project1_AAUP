@@ -40,14 +40,42 @@ body
 */
 
 
+.digitalBook
+{
+    height: 50vh;
+    background: url(./SourceImages/banner.jpg);
+    background-size: cover;
+}
 
 
+.digitalBookButton
+{
+    color: white;
+    background-color: #2596be;
+
+    margin-left:  8.2rem;
+    margin-top: 20.5rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    
+    border: 0px;
+}
 
 
 .blog
 {
     height: auto;
     margin-bottom: 1rem;
+}
+
+#digitalBookParagraph
+{
+    background: red;
 }
 
 
