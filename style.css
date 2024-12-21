@@ -133,32 +133,94 @@ body
 
 
   
-  /* Section Styling */
-  .featured-books {
+.about
+{
+    padding: 0;
+}
+
+.aboutContainer
+{
+    display: flex;
+    gap: 0.5rem;
+    
+}
+
+
+.aboutContainerImg
+{
+    padding: 0;
+}
+
+.aboutContainerImg img
+{
+    height: 70vh;
+}
+
+
+.aboutContainerContent
+{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+
+
+   padding-top: 10rem; 
+}
+
+.aboutSectionHeader
+{
+    font-size: 3rem;
+    text-align: left;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.aboutContainerContent p
+{
+    font-size: 1.5rem;
+}
+.aboutContainerContent button
+{
+    width: 8vw;
+    color: white;
+    background-color: #2596be;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    border: 0;
+   
+}
+
+
+
+
+
+
+
+.featured-books {
     padding: 1em;
     background-color: white;
-   
-  }
-  
-  .featured-books h1 {
-    text-align: center;
-    margin-bottom: 2em;
-    font-size: 2em;
-    font-weight: bold;
-  }
-  
-  /* Scroll Box */
-  .scroll-box {
+
+}
+
+
+/* Scroll Box */
+.scroll-box {
     display: flex;
     overflow-x: auto;
     gap: 1.5em;
     padding: 1em;
-  }
-  
- 
-  
-  /* Book Card */
-  .book {
+}
+
+
+
+/* Book Card */
+.book {
     flex: 0 0 15em;
     border: 1px solid rgb(177, 177, 163);
     padding: 1em;
@@ -166,57 +228,57 @@ body
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .book:hover {
-    
+}
+
+.book:hover {
+
     box-shadow: 0px 0px 5px rgba(37, 150, 190, 1);
-  }
-  
-  /* Book Image */
-  .book img {
+}
+
+/* Book Image */
+.book img {
     width: 9em;
     height: auto;
     margin-bottom: 1em;
-  }
-  
-  /* Book Title */
-  .book h2 {
+}
+
+/* Book Title */
+.book h2 {
     font-size: 1.5em;
     margin: 0.5em 0;
     color: black;
-  }
-  
-  /* Book Details */
-  .bookAuthor{
-    
+}
+
+/* Book Details */
+.bookAuthor{
+
     color: gray;
 
     margin-bottom: 0.5rem;
-  }
+}
 
-  .bookGenere
-  {
+.bookGenere
+{
     color:#2596be ;
     margin-bottom: 0.5rem;
-  }
-  
-  /* Price Styling */
-  .book .price {
+}
+
+/* Price Styling */
+.book .price {
     font-weight: bold;
     color: black;
     margin-bottom: 0.5rem;
 
-  }
-  
-  .book .old-price {
+}
+
+.book .old-price {
     text-decoration: line-through;
     color: grey;
     margin-bottom: 0.5rem;
-  }
-  
-  /* Button Styling */
-  .book button {
+}
+
+/* Button Styling */
+.book button {
     margin-top: 0.5em;
     padding: 0.5em 1em;
     background-color: white;
@@ -224,13 +286,13 @@ body
     color: rgb(37, 150, 190);
     cursor: pointer;
     transition: all 0.3s ease;
-  }
-  
-  .book button:hover {
+}
+
+.book button:hover {
     background-color: rgb(37, 150, 190);
     color: white;
-  }
-  
+}
+
 
 
 
