@@ -131,6 +131,75 @@ body
 */
 
 
+.hero
+{
+    background: url(./SourceImages/bg.png);
+    background-size: cover;
+    background-position:center;
+
+    height: 72vh;
+    margin-bottom: 10rem;
+    padding-top: 15rem;
+    
+}
+
+.heroContainer
+{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-left: 5rem;
+
+}
+
+
+.heroContainerContent
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-top: 5rem;
+    
+}
+
+.heroContainerContentImg
+{
+    padding: 0;
+}
+.heroContainerContentImg img
+{
+    height: 50vh;
+}
+
+.heroContainerContent h1
+{
+    font-size: 5rem;
+}
+
+.heroContainerContent p
+{
+    font-size: 1.4rem;
+}
+
+.heroContainerContent button
+{
+    width: 8vw;
+    color: white;
+    background-color: #2596be;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    border: 0;
+}
+
+
+
+
+
 
 .serviceContainer {
     display: flex;
@@ -142,8 +211,6 @@ body
     margin-bottom: 3rem;
 }
 .serviceContainerContent {
-   
-    
    
     text-align: center;
     padding: 1.25em;
