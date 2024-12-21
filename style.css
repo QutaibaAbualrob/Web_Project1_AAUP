@@ -147,6 +147,7 @@ body
     gap: 2rem;
 }
 
+
 .arrivalContainerRow1
 {
     display: flex;
@@ -154,12 +155,12 @@ body
 
     gap: 3rem;
 }
-
+/*
 .arrivalContainerRow2
 {
     display: flex;
 }
-
+*/
 .arrivalContainerRowContent
 {
     width: 25vh;
@@ -180,7 +181,7 @@ body
 {
     display: flex;
     justify-content: center;
-    
+    overflow: hidden;
     
 }
 
@@ -193,6 +194,7 @@ body
 .arrivalPoster
 {
     height: 30vh;
+    transition: all 0.5s;
 }
 
 .arrivalParagraph
@@ -220,30 +222,23 @@ body
     border: 1px #2596be solid;
 }
 
-.addShadow
+
+.addShadow:hover
 {
-    box-shadow: 3px 3px 10px gray;
+    box-shadow: 0px 0px 5px rgba(37, 150, 190, 1);
 }
 
-.addZoom
+.addZoom:hover
 {
-    height: 30vh;
-    overflow: hidden;
-    border-radius: 16px;
-    cursor: pointer;
+   
+    transform: scale(1.2);
+    
+    
+    
 }
 
-.addZoom img
-{
-    object-fit: cover;
-    transition: tranform 0.8s;
-    height: 100%;
-}
 
-.addZoom:hover img
-{
-    transform: scalo(1.5);
-}
+
 
 
 
