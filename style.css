@@ -50,11 +50,18 @@ body
 .arrivalContainer
 {
     display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .arrivalContainerRow1
 {
     display: flex;
+    
+
+    gap: 3rem;
 }
 
 .arrivalContainerRow2
@@ -64,6 +71,8 @@ body
 
 .arrivalContainerRowContent
 {
+    width: 25vh;
+
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -73,7 +82,15 @@ body
     padding-right: 2rem;
     padding-bottom: 0.5rem;
 
-    border: 1px purple solid;
+    border: 1.5px gray solid;
+}
+
+.arrivalContainerRowContentImg
+{
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .arrivalContainerRowContentStars
@@ -84,7 +101,7 @@ body
 
 .arrivalPoster
 {
-    height: 25vh;
+    height: 30vh;
 }
 
 .arrivalParagraph
@@ -103,6 +120,7 @@ body
     color: black;
     background-color: white;
 
+    width: 5vw;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.1rem;
@@ -111,6 +129,10 @@ body
     border: 1px #2596be solid;
 }
 
+.addShadow
+{
+    box-shadow: 3px 3px 10px gray;
+}
 
 
 
