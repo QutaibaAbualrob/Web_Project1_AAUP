@@ -153,6 +153,7 @@ body
 }
 
 
+
 .heroContainerContent
 {
     display: flex;
@@ -175,6 +176,11 @@ body
 .heroContainerContent h1
 {
     font-size: 5rem;
+}
+
+.heroContainerContent h1 span
+{
+   color: #2596be;
 }
 
 .heroContainerContent p
