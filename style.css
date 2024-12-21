@@ -132,6 +132,45 @@ body
 
 
 
+.serviceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.serviceContainerContent {
+   
+    
+   
+    text-align: center;
+    padding: 1.25em;
+    box-shadow: 0 0.25em 0.375em rgba(8, 82, 78, 0.1);
+   
+    max-width: 18.75em; 
+
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    box-shadow: 0px 0px 15px rgba(37, 150, 190, 1);
+}
+.serviceContainerContent img {
+    width: 15%;
+}
+
+.serviceContainerContent:hover {
+    transform: translateY(-0.3125em);
+    box-shadow: 0px 0px 5px rgba(37, 150, 190, 1);
+}
+
+
+
+
+
+
+
+
+
   
 .about
 {
