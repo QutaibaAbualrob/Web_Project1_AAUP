@@ -40,6 +40,105 @@ body
 */
 
 
+
+.arrival
+{
+    padding: 0;
+}
+
+
+.arrivalContainer
+{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.arrivalContainerRow1
+{
+    display: flex;
+    
+
+    gap: 3rem;
+}
+
+.arrivalContainerRow2
+{
+    display: flex;
+}
+
+.arrivalContainerRowContent
+{
+    width: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+
+    border: 1.5px gray solid;
+}
+
+.arrivalContainerRowContentImg
+{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.arrivalContainerRowContentStars
+{
+    display: flex;
+    justify-content: center;
+}
+
+.arrivalPoster
+{
+    height: 30vh;
+}
+
+.arrivalParagraph
+{
+    text-align: center;
+    font-weight: 900;
+}
+
+.arrivalStar
+{
+    height: 2vh;
+}
+
+.arrivalButton
+{
+    color: black;
+    background-color: white;
+
+    width: 5vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+
+    border: 1px #2596be solid;
+}
+
+.addShadow
+{
+    box-shadow: 3px 3px 10px gray;
+}
+
+
+
+
+
+
 .digitalBook
 {
     height: 50vh;
