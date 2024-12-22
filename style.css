@@ -1344,3 +1344,17 @@ body
     } 
 }
 
+@media (max-width: 1025px )
+{
+    img
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    section
+    {
+        height: auto;
+        width: 100%; 
+    }
+}
