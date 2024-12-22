@@ -828,6 +828,39 @@ body
 @media (max-width: 425px )
 {
 
+    /* Digital Book Responvsive */
+
+    .digitalBook
+    {
+        height: 25vh;
+        background: url(./SourceImages/banner.jpg);
+        background-size: cover;
+      
+        background-position: -2.5rem;
+    }
+
+
+    .digitalBookButton
+    {
+        color: white;
+        background-color: #2596be;
+
+        margin-left: 2rem;
+        margin-top: 11rem;
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+        
+        border: 0px;
+    }
+
+
+
+
     /* BLog Responvsive */
     .blog
     {
