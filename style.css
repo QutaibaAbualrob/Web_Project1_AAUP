@@ -830,6 +830,86 @@ body
 
 @media (max-width: 425px )
 {
+    
+    
+    
+    /*Hero Resonsive*/
+
+    .hero
+    {
+        background: url(./SourceImages/bg.png);
+        background-size: cover;
+
+        background-position: -20rem 10rem ;
+        height: auto;
+        
+        margin-bottom: 10rem;
+    }
+
+    .heroContainer
+    {
+        display: flex;
+        flex-direction: column; /*Break point*/
+        justify-content: center;
+
+        gap: 2rem;
+
+        padding-right: 5rem;
+    }
+
+
+
+    .heroContainerContent
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        margin-top: 5rem;
+        
+    }
+
+    .heroContainerContentImg
+    {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .heroContainerContentImg img
+    {
+        height: 15vh;
+    }
+
+    .heroContainerContent h1
+    {
+        font-size: 3rem;
+    }
+ 
+
+    .heroContainerContent p
+    {
+        font-size: 1.4rem;
+    }
+
+    .heroContainerContent button
+    {
+        width: 25vw;
+        color: white;
+        background-color: #2596be;
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+        border: 0;
+    }
+
+
+
+
+
+
 
     /*About Resonsive*/
 
@@ -843,8 +923,8 @@ body
 
     .aboutContainerImg img
     {
-        height: 35vh;
-        margin-right: 15rem;
+        height: 25vh;
+        padding-left: 4rem;
     }
 
 
