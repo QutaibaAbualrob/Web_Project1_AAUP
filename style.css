@@ -828,7 +828,62 @@ body
 @media (max-width: 425px )
 {
 
-    
+    /* BLog Responvsive */
+    .blog
+    {
+        height: auto;
+        margin: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #digitalBookParagraph
+    {
+        background: red;
+    }
+
+
+    .blogContainer
+    {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        gap: 1.8rem;
+        margin-bottom: 2rem;
+        
+       
+    }
+    .blogInnerContainer
+    {
+        width: 30vh;
+        flex-direction: column;
+        box-shadow: 0px 0px 20px gray;
+    }
+
+    #blogImgContainer1
+    {
+        background-image: url(./SourceImages/blog/blog_1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }
+    #blogImgContainer2
+    {
+        background-image: url(./SourceImages/blog/blog_2.jpg);
+        background-size: cover;
+        
+        height: 30vh;
+    }
+
+    #blogImgContainer3
+    {
+        background-image: url(./SourceImages/blog/blog_3.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+    }
+ 
+
+
 
     .footer
     {
