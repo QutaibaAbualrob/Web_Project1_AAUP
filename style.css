@@ -831,6 +831,64 @@ body
 @media (max-width: 425px )
 {
 
+    /*About Resonsive*/
+
+    .aboutContainer
+    {
+        display: flex;
+        flex-direction: column; /*Break point*/
+        gap: 0.5rem;
+        
+    }
+
+    .aboutContainerImg img
+    {
+        height: 35vh;
+        margin-right: 15rem;
+    }
+
+
+    .aboutContainerContent
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        padding: 3rem;
+    
+    }
+    .aboutSectionHeader
+    {
+    
+        text-align: center;
+        font-size: 3rem;
+
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .aboutContainerContent button
+    {
+        width: 25vw;
+        color: white;
+        background-color: #2596be;
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+        border: 0;
+    
+    }
+
+
+
+
+
+
     /*Arrival Resonsive*/
 
 
