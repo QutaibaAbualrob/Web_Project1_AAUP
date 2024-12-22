@@ -1351,4 +1351,10 @@ body
         height: auto;
         width: 100%;
     }
+
+    section
+    {
+        height: auto;
+        width: 100%; 
+    }
 }
