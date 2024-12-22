@@ -825,3 +825,143 @@ body
     text-align: center;
 }
 
+@media (max-width: 425px )
+{
+
+    
+
+    .footer
+    {
+        background-color: #eaeaea;
+       
+    
+        padding: 0.8rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        
+        
+    }
+    
+    .footerContainer
+    {
+        background-color: #eaeaea;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .footerContainerLogoDiv
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footerContainerListDiv
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footerULHeader
+    {
+        font-size: 1.15rem;
+        font-weight: 600;
+        text-align: center;
+    
+        margin-top: 1rem;
+        margin-bottom: 1.6rem;
+    
+    }
+    
+    #footerBookLogo
+    {
+        
+        width: 10rem;
+        margin-bottom: 0.4rem;
+        margin-left: 5rem;
+    }
+    
+    #footerLogoParagraph
+    {
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+    
+    .footerSmallIcons
+    {
+        height: 2vh;
+    }
+    
+    
+    
+    #footerUL
+    {
+        list-style: none;
+        text-align: center;
+        margin-top: 1rem;
+        
+        
+    }
+    
+    #footerUL li
+    {
+        margin-bottom: 1rem;
+    }
+    
+    #socialMediaLogos
+    {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    #socialMediaLogos img
+    {
+        margin-right: 0.4rem;
+    }
+    
+    #footerInput
+    {
+    
+    
+        text-align: center;
+        color: gray;
+        background-color: lightgray;
+    
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        margin-bottom: 0.25rem;
+        
+        border-radius: 1rem;
+        border: 0px;
+    }
+    
+    #footerButton
+    {
+        color: white;
+        background-color: #2596be;
+    
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    
+        border-radius: 1rem;
+        border: 0px;
+    }
+    
+    #footerEndParagraph
+    {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    } 
+}
+
