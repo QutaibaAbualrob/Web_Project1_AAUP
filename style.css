@@ -1092,6 +1092,7 @@ body
         height: auto;
         margin: 1rem;
         margin-bottom: 1rem;
+        
     }
 
     #digitalBookParagraph
@@ -1146,12 +1147,11 @@ body
     .footer
     {
         background-color: #eaeaea;
-       
+        width: auto;
     
         padding: 0.8rem;
         padding-left: 3rem;
         padding-right: 3rem;
-        
         
     }
     
@@ -1178,7 +1178,7 @@ body
         flex-wrap: wrap;
         justify-content: center;
     }
-
+   
     .footerULHeader
     {
         font-size: 1.15rem;
@@ -1186,7 +1186,7 @@ body
         text-align: center;
     
         margin-top: 1rem;
-        margin-bottom: 1.6rem;
+        margin-bottom: 1rem;
     
     }
     
@@ -1217,12 +1217,11 @@ body
         text-align: center;
         margin-top: 1rem;
         
-        
     }
     
     #footerUL li
     {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
     
     #socialMediaLogos
@@ -1251,7 +1250,7 @@ body
         padding-right: 1.5rem;
 
         margin-bottom: 0.25rem;
-        
+        margin-left: 3rem;
         border-radius: 1rem;
         border: 0px;
     }
@@ -1265,9 +1264,12 @@ body
         padding-bottom: 0.5rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-    
+        
+        margin-left: 6rem;
+
         border-radius: 1rem;
         border: 0px;
+        
     }
     
     #footerEndParagraph
