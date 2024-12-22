@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Books</title>
+    <script src="./script.js"></script>
+
 </head>
 <body>
 
@@ -12,10 +14,18 @@
     <header>
         <nav class="navBar">
             <div id="navContainer">
-                <div>
-                    <img id="navBarLogo" src="./SourceImages/logo.png" alt="">
+                <div class="wrapper">
+                    <img id="navBarLogo" src="./SourceImages/logo.png" alt="Logo">
+                                <!-- Menu Toggle Button for Mobile -->
+                                <div id="menuToggle" onclick="toggleMenu()">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                 </div>
+    
 
+    
                 <ul id="navBarList">
                     <li><a class="navBarListAnchor" href="#hero">Home</a></li>
                     <li><a class="navBarListAnchor" href="#about">About</a></li>
@@ -24,7 +34,7 @@
                     <li><a class="navBarListAnchor" href="#reviews">Reviews</a></li>
                     <li><a class="navBarListAnchor" href="#blog">Blog</a></li>
                 </ul>
-
+    
                 <div id="navBarIcons">
                     <img class="navIcon" src="./SourceImages/RadnomLogos/search_icon.svg" alt="Search icon logo">
                     <img class="navIcon" src="./SourceImages/RadnomLogos/heart_black.svg" alt="Heart logo">
@@ -32,6 +42,7 @@
             </div>
         </nav>
     </header>
+    
 
     <!-- Section 1 Hero part, WELCOME TO BOOK STORE  -->
     <section class="hero" id="hero">
@@ -489,72 +500,69 @@
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="reviewsContainer">
-                    <div class="reviewsContainerContent">
-                        <div class="reviewsContainerProfilePic">
-                            <div class="reviewsContainerProfileAvatar">
-                                <img src="./SourceImages/review/review_2.png" alt="Review Profile Picture">
-                            </div>
-                            <div class="reviewsContainerProfileQuote">
-                                <img src="./SourceImages/RadnomLogos/quote-right-solid-black65.svg" alt="Quote image">
-                            </div>
+                <div class="reviewsContainerContent">
+                    <div class="reviewsContainerProfilePic">
+                        <div class="reviewsContainerProfileAvatar">
+                            <img src="./SourceImages/review/review_2.png" alt="Review Profile Picture">
                         </div>
-        
-                        <div class="reviewsContainerHeader">
-                            <p>John Doe</p>
-                        </div>
-                        <div class="reviewsContainerParagraph">
-                            <p>
-                                Lorem ipsum dolor    sit amet, consectetur
-                                adipisicing elit. Natus eos doloribus iure
-                                distinctio! Eos  .  dolorem quam, nisi amet
-                                saepe  .    totam, .     .  quas quidem    laboriosam
-                                dolore,  . tenetur itaque  nostrum voluptas
-                                excepturi aut.<br>
-                            </p>
-                        </div>
-                        <div class="reviewsContainerRowContentStars">
-                            <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                            <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                            <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                            <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                            <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
+                        <div class="reviewsContainerProfileQuote">
+                            <img src="./SourceImages/RadnomLogos/quote-right-solid-black65.svg" alt="Quote image">
                         </div>
                     </div>
+    
+                    <div class="reviewsContainerHeader">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="reviewsContainerParagraph">
+                        <p>
+                            Lorem ipsum dolor    sit amet, consectetur
+                            adipisicing elit. Natus eos doloribus iure
+                            distinctio! Eos  .  dolorem quam, nisi amet
+                            saepe  .    totam, .     .  quas quidem    laboriosam
+                            dolore,  . tenetur itaque  nostrum voluptas
+                            excepturi aut.<br>
+                        </p>
+                    </div>
+                    <div class="reviewsContainerRowContentStars">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
+                    </div>
+                </div>
                     <!-- 3 -->
-                    <div class="reviewsContainer">
-                        <div class="reviewsContainerContent">
-                            <div class="reviewsContainerProfilePic">
-                                <div class="reviewsContainerProfileAvatar">
-                                    <img src="./SourceImages/review/review_3.png" alt="Review Profile Picture">
-                                </div>
-                                <div class="reviewsContainerProfileQuote">
-                                    <img src="./SourceImages/RadnomLogos/quote-right-solid-black65.svg" alt="Quote image">
-                                </div>
-                            </div>
-            
-                            <div class="reviewsContainerHeader">
-                                <p>John Doe</p>
-                            </div>
-                            <div class="reviewsContainerParagraph">
-                                <p>
-                                    Lorem ipsum dolor    sit amet, consectetur
-                                    adipisicing elit. Natus eos doloribus iure
-                                    distinctio! Eos  .  dolorem quam, nisi amet
-                                    saepe  .    totam, .     .  quas quidem    laboriosam
-                                    dolore,  . tenetur itaque  nostrum voluptas
-                                    excepturi aut.<br>
-                                </p>
-                            </div>
-                            <div class="reviewsContainerRowContentStars">
-                                <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                                <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                                <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                                <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                                <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
-                            </div>
+                <div class="reviewsContainerContent">
+                    <div class="reviewsContainerProfilePic">
+                        <div class="reviewsContainerProfileAvatar">
+                            <img src="./SourceImages/review/review_3.png" alt="Review Profile Picture">
                         </div>
-                <div class="reviewsContainer">
+                        <div class="reviewsContainerProfileQuote">
+                            <img src="./SourceImages/RadnomLogos/quote-right-solid-black65.svg" alt="Quote image">
+                        </div>
+                    </div>
+    
+                    <div class="reviewsContainerHeader">
+                        <p>John Doe</p>
+                    </div>
+                    <div class="reviewsContainerParagraph">
+                        <p>
+                            Lorem ipsum dolor    sit amet, consectetur
+                            adipisicing elit. Natus eos doloribus iure
+                            distinctio! Eos  .  dolorem quam, nisi amet
+                            saepe  .    totam, .     .  quas quidem    laboriosam
+                            dolore,  . tenetur itaque  nostrum voluptas
+                            excepturi aut.<br>
+                        </p>
+                    </div>
+                    <div class="reviewsContainerRowContentStars">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
+                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
+                    </div>
+                </div>
                 <!-- 4 -->
                 <div class="reviewsContainerContent">
                     <div class="reviewsContainerProfilePic">
@@ -586,7 +594,6 @@
                         <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
                         <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -716,6 +723,5 @@
         
     </section>
 
-    <script src="./script.js"></script>
 </body>
 </html>
